@@ -7,7 +7,7 @@ function threeNumbers(number1, number2, number3) {
 }
 
 /**
- * module.exports = threeNumbers
+ * module.exports = { threeNumbers }
  *  this will breaks the twoNumbers
  *  instead, do this
  */
@@ -18,7 +18,7 @@ console.log("this thing is printed when the module is 'require-ed'")
 console.log("-- END addition.js")
 
 /**
- * if you are having 2 lines that says
+ * let me repeat myself, if you are having 2 lines that says
  *  module.exports = { twoNumbers }
  *  module.exports = { threeNumbers }
  * then the 'twoNumbers' won't be exported because it is overwritten, and if you do
