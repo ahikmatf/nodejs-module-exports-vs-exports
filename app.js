@@ -35,3 +35,16 @@ division.thatPrintsMyLastName(4, 6)
 
 factorial.usingLoop(4)
 console.log(factorial.usingRecursive(4))
+
+
+/**
+ * printing my const
+ */
+
+ console.log(addition)
+ console.log(empty)
+ console.log(substraction)
+ console.log(calculator)
+ console.log(multiplication)
+ console.log(division)
+ console.log(factorial)
