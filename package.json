@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-module-exports-vs-exports",
+  "version": "1.0.0",
+  "description": "It's me trying to understand the `module.exports` vs `exports` in NodeJS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": ["exports", "module.exports"],
+  "author": "ahikmatf",
+  "license": "MIT"
+}
